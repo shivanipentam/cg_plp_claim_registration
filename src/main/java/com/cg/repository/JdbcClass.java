@@ -25,7 +25,6 @@ public class JdbcClass {
 		catch(SQLException e)
 		{
 			System.out.println("Not");
-			
 		}
 
 	}

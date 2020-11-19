@@ -28,9 +28,10 @@ public class UserImplements implements IUser {
 	  	
 	  	ps.setString(1, userName.getUserName());
 	  	ps.setString(2, userName.getPassword());
-	  	ps.setString(3, userName.getPassword());
+	  	ps.setString(3, userName.getRoleCode());
 	  	
-	  	int count=ps.executeUpdate();
+	  	
+	  	ps.executeUpdate();
 	  	return userName;
 	  	
 	}
